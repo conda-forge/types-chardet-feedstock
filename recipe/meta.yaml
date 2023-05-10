@@ -1,5 +1,5 @@
 {% set name = "types-chardet" %}
-{% set version = "5.0.4.5" %}
+{% set version = "5.0.4.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-chardet-{{ version }}.tar.gz
-  sha256: b3a94b9d24752ade941e269eb9327d78eda2c482e2d373ec46deed3a150af773
+  sha256: caf4c74cd13ccfd8b3313c314aba943b159de562a2573ed03137402b2bb37818
 
 build:
   number: 0
